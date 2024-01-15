@@ -16,7 +16,7 @@ My portfolio is currently live and can be accessed at the following URL: https:/
 To run this portfolio locally:
 
 1. Clone the repository using `git clone https://github.com/dobbyssockk/dobbyssockk.github.io.git`.
-2. Navigate to the project directory with the command `cd portfolio`.
+2. Navigate to the project directory with the command `cd dobbyssockk.github.io`.
 3. Install dependencies: `npm install`
 4. Start the development server: `gulp`
 
