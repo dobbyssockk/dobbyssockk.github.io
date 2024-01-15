@@ -19,6 +19,7 @@
   &__item {
     position: relative;
     overflow: hidden;
+    cursor: pointer;
     img {
       width: 100%;
       height: 100%;
@@ -27,7 +28,7 @@
       transition: transform 0.3s ease;
     }
   }
-  &__item:hover img {
+  &__item:hover img, &__item:active img {
     transform: scale(1.1);
   }
   &__overlay {
@@ -46,7 +47,7 @@
     padding: 10px;
     box-sizing: border-box;
   }
-  &__item:hover &__overlay {
+  &__item:hover &__overlay, &__item:active &__overlay {
     opacity: 1;
   }
   &__title {
