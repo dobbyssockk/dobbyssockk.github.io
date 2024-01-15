@@ -2,6 +2,9 @@
 
 Welcome to my personal web development portfolio. This portfolio showcases my skills in HTML5, CSS3, JavaScript, and responsive web design, featuring projects that demonstrate my ability to create user-friendly, engaging web experiences.
 
+## Access
+My portfolio is currently live and can be accessed at the following URL: https://dobbyssockk.github.io/.
+
 ## Projects
 
 - **Organic Origins**: A website dedicated to a healthy, organic lifestyle. [View Live](https://dobbyssockk.github.io/organic-origins/)
@@ -12,7 +15,7 @@ Welcome to my personal web development portfolio. This portfolio showcases my sk
 
 To run this portfolio locally:
 
-1. Clone the repository using `git clone https://github.com/dobbyssockk/portfolio.git`.
+1. Clone the repository using `git clone https://github.com/dobbyssockk/dobbyssockk.github.io.git`.
 2. Navigate to the project directory with the command `cd portfolio`.
 3. Install dependencies: `npm install`
 4. Start the development server: `gulp`
@@ -31,7 +34,6 @@ To run this portfolio locally:
 
 ## Connect with Me
 - GitHub: @dobbyssockk
-- LinkedIn: Your LinkedIn
 - Telegram: @dobbyssockk
 
 Thank you for visiting my portfolio!
