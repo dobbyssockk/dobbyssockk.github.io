@@ -1,0 +1,76 @@
+.portfolio {
+  padding-top: 120px;
+  &__wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 300px);
+    grid-template-rows: repeat(auto-fit, 300px);
+    grid-auto-rows: 280px;
+    justify-content: center;
+    gap: 10px;
+    .vertical {
+      grid-row: 1 / 3;
+      grid-column: 4 / 5;
+    }
+    .horizontal {
+      grid-row: 2 / 3;
+      grid-column: 2 / 4;
+    }
+  }
+  &__item {
+    position: relative;
+    overflow: hidden;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.3s ease;
+    }
+  }
+  &__item:hover img {
+    transform: scale(1.1);
+  }
+  &__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.8); /* Цвет затемнения */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  &__item:hover &__overlay {
+    opacity: 1;
+  }
+  &__title {
+    font-size: 18px;
+    color: #FFF;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+  &__text {
+    font-size: 14px;
+    color: #FFF;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  &__link {
+    border: 2px solid white;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    transition: background-color 0.3s ease;
+  }
+  &__link:hover {
+    background-color: white;
+    color: black;
+  }
+}
