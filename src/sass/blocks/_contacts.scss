@@ -27,14 +27,23 @@
     padding-left: 12px;
     @include before_circle;
   }
-  &__text, &__social {
+  &__text {
+    margin-bottom: 20px;
+  }
+  &__social {
+    display: flex;
     margin-bottom: 20px;
   }
   &__link {
-    margin-right: 25px;
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    text-decoration: none;
     img {
-      max-width: 30px;
-      max-height: 30px;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
     }
   }
   &__form {
