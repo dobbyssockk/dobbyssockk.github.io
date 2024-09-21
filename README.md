@@ -1,9 +1,8 @@
-# Lily's Web Development Portfolio
+# Web Development Portfolio
+
+## My portfolio is live at https://dobbyssockk.github.io/
 
 Welcome to my personal web development portfolio. This portfolio showcases my skills in HTML5, CSS3, JavaScript, and responsive web design, featuring projects that demonstrate my ability to create user-friendly, engaging web experiences.
-
-## Access
-My portfolio is currently live and can be accessed at the following URL: https://dobbyssockk.github.io/.
 
 ## Projects
 
