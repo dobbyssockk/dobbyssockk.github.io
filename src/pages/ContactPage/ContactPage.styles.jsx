@@ -2,7 +2,6 @@ import styled from 'styled-components';
 
 export const StyledPage = styled.section`
     padding-bottom: 90px;
-    padding: 0 35px 0 52px;
     display: grid;
     grid-template-columns: 400px 585px;
     justify-content: space-between;
