@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.58462fbc.css",
+    "main.js": "/static/js/main.ccb4bc89.js",
+    "static/media/main_photo.png": "/static/media/main_photo.896915a0642e5e775040.png",
+    "static/media/runsmart.png": "/static/media/runsmart.61305e11515b2c4cbd52.png",
+    "static/media/greenery.png": "/static/media/greenery.cc92852289ad38c53063.png",
+    "static/media/memory-game.png": "/static/media/memory-game.19e43b4c1f0e636dde3f.png",
+    "static/media/crypto-market.png": "/static/media/crypto-market.995350a8fb3f2bd6f5c2.png",
+    "static/media/employees-management.png": "/static/media/employees-management.f8941c56b4dcd881ad56.png",
+    "static/media/alchemy-game.png": "/static/media/alchemy-game.af9da070467ec3f8ec0e.png",
+    "static/media/react.svg": "/static/media/react.49880c79b4cf6fac6eeb1ff6f1aa1c95.svg",
+    "static/media/jquery.svg": "/static/media/jquery.192ebfb6991cec8896e9d5e4da6f0450.svg",
+    "static/media/university.svg": "/static/media/university.029a36d8a8484c9eec4b912f77c5251e.svg",
+    "static/media/learning.svg": "/static/media/learning.b866068d7c85144496e1776977633bba.svg",
+    "static/media/tic-tac-toe.svg": "/static/media/tic-tac-toe.84aa3fb2920bd2e35d15c75af32720c8.svg",
+    "static/media/html5.svg": "/static/media/html5.359612fd63614a7ab28e8932982a7960.svg",
+    "static/media/courses.svg": "/static/media/courses.d84c46a08fdbc55685ea42a3b109721f.svg",
+    "static/media/css3.svg": "/static/media/css3.e429c28db4d35e3bb6341570f3b74265.svg",
+    "static/media/js.svg": "/static/media/js.656b841c79fca81fe0cd5e69458ae05b.svg",
+    "static/media/projects.svg": "/static/media/projects.b92a62933ea1b81bfc95c0ab9e50e6ab.svg",
+    "index.html": "/index.html",
+    "main.58462fbc.css.map": "/static/css/main.58462fbc.css.map",
+    "main.ccb4bc89.js.map": "/static/js/main.ccb4bc89.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.58462fbc.css",
+    "static/js/main.ccb4bc89.js"
+  ]
+}
