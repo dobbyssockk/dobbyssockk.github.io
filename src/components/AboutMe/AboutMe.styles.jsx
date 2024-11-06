@@ -3,20 +3,9 @@ import styled from "styled-components";
 export const StyledAbout = styled.div`
     .wrapper {
         display: grid;
-        grid-template-columns: 400px 570px;
-        grid-template-rows: minmax(400px, auto);
+        grid-template-columns: 1fr;
         grid-auto-rows: minmax(245px, auto);
-        column-gap: 70px;
-        row-gap: 40px;
-        align-items: center;
-
-        .photo {
-            img {
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
-            }
-        }
+        gap: 40px;
         
         .descr {
             background-color: #f9f9f9;
@@ -34,6 +23,23 @@ export const StyledAbout = styled.div`
                 margin-bottom: 1rem;
                 padding-left: 2rem;
             }
+        }
+
+        @media (min-width: ${(props) => props.theme.breakpoints.tablet}) {
+            grid-template-columns: 315px 380px;
+        }   
+
+        @media (min-width: ${(props) => props.theme.breakpoints.laptop}) {
+            grid-template-columns: 400px 520px;
+            column-gap: 40px;
+        }
+
+        @media (min-width: ${(props) => props.theme.breakpoints.desktop}) {
+            grid-template-columns: 400px 570px;
+            grid-template-rows: minmax(400px, auto);
+            column-gap: 70px;
+            row-gap: 40px;
+            align-items: center;
         }
     }
 `;

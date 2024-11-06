@@ -6,9 +6,6 @@ export const StyledCard = styled.div`
   cursor: pointer;
   
   img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
     display: block;
     transition: transform 0.3s ease;
   }

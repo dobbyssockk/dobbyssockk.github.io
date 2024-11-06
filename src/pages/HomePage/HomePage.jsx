@@ -1,14 +1,13 @@
-import { StyledPage } from './HomePage.styles';
 import AboutMe from '../../components/AboutMe/AboutMe';
 import Skills from '../../components/Skills/Skills';
 import Experience from '../../components/Experience/Experience';
 
 const HomePage = () => (
-    <StyledPage className="section-container">
+    <section className="section-container pd-btm">
         <AboutMe />
         <Skills />
         <Experience />
-    </StyledPage>
+    </section>
 );
 
 export default HomePage;

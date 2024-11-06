@@ -80,6 +80,7 @@ export const StyledItem = styled.li`
                 z-index: 1;
 
                 img {
+                    max-width: unset;
                     position: absolute;
                     left: 17px;
                     top: 14px;

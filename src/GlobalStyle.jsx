@@ -6,10 +6,31 @@ const GlobalStyle = createGlobalStyle`
         box-sizing: border-box;
     }
 
+    main {
+        display: flex;
+        justify-content: center;
+    }
+
     .section-container {
-        width: 1140px;
-        margin: 0 auto;
-        padding-top: 120px;
+        width: 100%;
+        padding: 180px 10px 0 10px;
+
+        @media (min-width: ${(props) => props.theme.breakpoints.tablet}) {
+            width: 720px;
+            padding: 120px 0 0 0;
+        }
+
+        @media (min-width: ${(props) => props.theme.breakpoints.laptop}) {
+            width: 960px;
+        }
+
+        @media (min-width: ${(props) => props.theme.breakpoints.desktop}) {
+            width: 1140px;
+        }
+    }
+
+    .pd-btm {
+        padding-bottom: 90px;
     }
 
     .center {
@@ -20,6 +41,12 @@ const GlobalStyle = createGlobalStyle`
         margin: 0;
         padding: 0;
         list-style-type: none;
+    }
+
+    img { 
+        max-width: 100%;
+        height: auto;
+        object-fit: cover;
     }
 
     h3, h4, p {

@@ -5,7 +5,7 @@ import Subtitle from '../../components/Subtitle/Subtitle';
 import Divider from '../../components/Divider/Divider';
 
 const ContactPage = () => (
-    <StyledPage className="section-container">
+    <StyledPage className="section-container pd-btm">
         <div className="photo">
             <img src={img} alt="developer in front of a computer" />
         </div>
@@ -36,7 +36,7 @@ const ContactPage = () => (
                 </div>
 
                 <div className="triggers">
-                    <button id="formBtn" className="btn static" type="submit">Send message</button>
+                    <button id="formBtn" className="btn" type="submit">Send message</button>
                     <div className="policy">
                         <input type="checkbox" required />
                         <span>I agree to the processing of my data for the purpose of contacting me.</span>

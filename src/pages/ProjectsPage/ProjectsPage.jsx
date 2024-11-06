@@ -1,4 +1,4 @@
-import { StyledPage, StyledList } from './ProjectsPage.styles';
+import { StyledList } from './ProjectsPage.styles';
 import Title from '../../components/Title/Title';
 import Subtitle from '../../components/Subtitle/Subtitle';
 import Divider from '../../components/Divider/Divider';
@@ -27,14 +27,14 @@ const myProjects = [
   
 
 const ProjectsPage = () => (
-    <StyledPage className="section-container">
+    <section className="section-container pd-btm">
         <Title center>Portfolio</Title>
         <Subtitle center>My projects</Subtitle>
         <Divider center />
         <StyledList>
             {myProjects.map((project) => <ProjectCard key={project.id} project={project} />)}
         </StyledList>
-    </StyledPage>
+    </section>
 );
 
 export default ProjectsPage;
