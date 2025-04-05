@@ -3,14 +3,14 @@ import styled from "styled-components";
 export const StyledCard = styled.div`
   position: relative;
   overflow: hidden;
-  cursor: pointer;
-  
-  img {
+
+  .card-img {
     display: block;
     transition: transform 0.3s ease;
   }
 
-  &:hover img, &:active img {
+  &:hover .card-img,
+  &:active .card-img {
     transform: scale(1.1);
   }
 
@@ -32,19 +32,23 @@ export const StyledCard = styled.div`
 
     h3 {
       font-size: 18px;
-      color: #FFF;
+      color: #fff;
       margin-bottom: 5px;
       text-align: center;
     }
 
     p {
       font-size: 14px;
-      color: #FFF;
+      color: #fff;
       margin-bottom: 10px;
       text-align: center;
     }
 
-    a {
+    .note {
+      color: #c05454;
+    }
+
+    .project-link {
       border: 2px solid white;
       padding: 10px 20px;
       text-decoration: none;
@@ -53,7 +57,7 @@ export const StyledCard = styled.div`
       transition: background-color 0.3s ease;
     }
 
-    a:hover {
+    .project-link:hover {
       background-color: white;
       color: black;
     }
@@ -65,9 +69,18 @@ export const StyledCard = styled.div`
       font-weight: 400;
       text-align: center;
     }
+
+    .github-icon {
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      top: 8px;
+      right: 8px;
+    }
   }
 
-  &:hover .overlay, &item:active .overlay {
+  &:hover .overlay,
+  &item:active .overlay {
     opacity: 1;
   }
 `;
