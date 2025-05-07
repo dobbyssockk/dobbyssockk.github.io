@@ -1,9 +1,10 @@
 import { StyledCard } from "./ProjectCard.styles";
+import ImageWithSkeleton from "../ImageWithSkeleton";
 import github from "../../assets/github-white.svg";
 
 const ProjectCard = ({ project }) => (
   <StyledCard>
-    <img
+    <ImageWithSkeleton
       src={project.src}
       alt={project.title + " Project Image"}
       className="card-img"

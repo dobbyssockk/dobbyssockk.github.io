@@ -1,4 +1,5 @@
 import { StyledAbout } from "./AboutMe.styles";
+import ImageWithSkeleton from "../ImageWithSkeleton";
 import img from "../../assets/main_photo.png";
 import Title from "../Title/Title";
 import Subtitle from "../Subtitle/Subtitle";
@@ -7,9 +8,7 @@ import Divider from "../Divider/Divider";
 const AboutMe = () => (
   <StyledAbout>
     <div className="wrapper">
-      <div className="photo">
-        <img src={img} alt="developer in front of a computer" />
-      </div>
+      <ImageWithSkeleton src={img} alt="developer in front of a computer" />
 
       <div className="descr">
         <Title padding>About me</Title>

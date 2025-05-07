@@ -1,4 +1,5 @@
 import { StyledPage } from "./ContactPage.styles";
+import ImageWithSkeleton from "../../components/ImageWithSkeleton";
 import img from "../../assets/main_photo.png";
 import github from "../../assets/github.svg";
 import Title from "../../components/Title/Title";
@@ -8,8 +9,9 @@ import Divider from "../../components/Divider/Divider";
 const ContactPage = () => (
   <StyledPage className="section-container pd-btm">
     <div className="photo">
-      <img src={img} alt="developer in front of a computer" />
+      <ImageWithSkeleton src={img} alt="developer in front of a computer" />
     </div>
+
     <div className="descr">
       <Title padding>Contacts</Title>
       <Subtitle>Get in touch with me</Subtitle>

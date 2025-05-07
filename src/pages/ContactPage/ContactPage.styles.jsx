@@ -4,7 +4,6 @@ export const StyledPage = styled.section`
   display: grid;
   grid-template-columns: 1fr;
   justify-content: space-between;
-  align-items: center;
   padding: 180px 50px 0 50px;
 
   @media (min-width: ${(props) => props.theme.breakpoints.tablet}) {
