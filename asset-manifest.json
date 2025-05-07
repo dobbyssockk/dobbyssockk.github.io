@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.58462fbc.css",
-    "main.js": "/static/js/main.7cca61bb.js",
-    "static/media/tic-tac-toe.png": "/static/media/tic-tac-toe.8cb53cd018881b377e37.png",
-    "static/media/natours.png": "/static/media/natours.caaf926bac73a04aa05e.png",
-    "static/media/trillo.png": "/static/media/trillo.8b67117ec4ba593c2063.png",
-    "static/media/nexter.png": "/static/media/nexter.d14c6ffe1f8a499699f2.png",
-    "static/media/runsmart.png": "/static/media/runsmart.9ba8d05bdaeef6c5e929.png",
-    "static/media/main_photo.png": "/static/media/main_photo.f82bf0502df6c65e0640.png",
-    "static/media/organic.png": "/static/media/organic.732419c4c6b2900636f3.png",
-    "static/media/alchemy-game.png": "/static/media/alchemy-game.48baf68d93796c63288c.png",
-    "static/media/marvel.png": "/static/media/marvel.6b185f8ca9ed3ad048d4.png",
-    "static/media/crypto-market.png": "/static/media/crypto-market.9c70cbf9d1f1f7630101.png",
-    "static/media/snake-game.png": "/static/media/snake-game.564dd310a66664054b76.png",
-    "static/media/memory-game.png": "/static/media/memory-game.75663aaaec63628a598f.png",
+    "main.js": "/static/js/main.526f7095.js",
+    "static/media/natours.png": "/static/media/natours.36519d6192f58fe86111.png",
+    "static/media/main_photo.png": "/static/media/main_photo.2ea749a73fb5eabe1b72.png",
+    "static/media/trillo.png": "/static/media/trillo.404ebabde8221b309905.png",
+    "static/media/runsmart.png": "/static/media/runsmart.5b46e5de28d063d7f906.png",
+    "static/media/nexter.png": "/static/media/nexter.6636fc227a7a7ae41643.png",
+    "static/media/tic-tac-toe.png": "/static/media/tic-tac-toe.8ede5f8e7eb6c2505032.png",
+    "static/media/marvel.png": "/static/media/marvel.c55df15d386c47764cfc.png",
+    "static/media/alchemy-game.png": "/static/media/alchemy-game.700138ed954c8027efd1.png",
+    "static/media/memory-game.png": "/static/media/memory-game.0725cb3087cb0cfc2b74.png",
+    "static/media/organic.png": "/static/media/organic.60b9566c5d86e887fdbd.png",
+    "static/media/crypto-market.png": "/static/media/crypto-market.fda02b60c41586155bf0.png",
+    "static/media/snake-game.png": "/static/media/snake-game.7f2c377e52cb4307beb6.png",
     "static/media/ai.svg": "/static/media/ai.b6fd92846c4cdb85527c80a61774248d.svg",
     "static/media/react.svg": "/static/media/react.671bacd4fd6c50ef06639836f328e6b5.svg",
     "static/media/university.svg": "/static/media/university.915174e76669b0715023cb2316b72d2f.svg",
@@ -30,10 +30,10 @@
     "static/media/projects.svg": "/static/media/projects.7e08507d2412722166d5cf17861a274d.svg",
     "index.html": "/index.html",
     "main.58462fbc.css.map": "/static/css/main.58462fbc.css.map",
-    "main.7cca61bb.js.map": "/static/js/main.7cca61bb.js.map"
+    "main.526f7095.js.map": "/static/js/main.526f7095.js.map"
   },
   "entrypoints": [
     "static/css/main.58462fbc.css",
-    "static/js/main.7cca61bb.js"
+    "static/js/main.526f7095.js"
   ]
 }
