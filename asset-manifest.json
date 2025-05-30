@@ -1,14 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.ddd12ba9.css",
-    "main.js": "/static/js/main.cc52f40e.js",
+    "main.js": "/static/js/main.a6829e6e.js",
     "static/media/natours.png": "/static/media/natours.36519d6192f58fe86111.png",
     "static/media/main_photo.png": "/static/media/main_photo.2ea749a73fb5eabe1b72.png",
     "static/media/trillo.png": "/static/media/trillo.404ebabde8221b309905.png",
-    "static/media/runsmart.png": "/static/media/runsmart.5b46e5de28d063d7f906.png",
     "static/media/nexter.png": "/static/media/nexter.6636fc227a7a7ae41643.png",
+    "static/media/tutor-ai.png": "/static/media/tutor-ai.7086e6f9c2d3024f305a.png",
     "static/media/tic-tac-toe.png": "/static/media/tic-tac-toe.8ede5f8e7eb6c2505032.png",
-    "static/media/marvel.png": "/static/media/marvel.c55df15d386c47764cfc.png",
     "static/media/alchemy-game.png": "/static/media/alchemy-game.700138ed954c8027efd1.png",
     "static/media/memory-game.png": "/static/media/memory-game.0725cb3087cb0cfc2b74.png",
     "static/media/organic.png": "/static/media/organic.60b9566c5d86e887fdbd.png",
@@ -30,10 +29,10 @@
     "static/media/projects.svg": "/static/media/projects.7e08507d2412722166d5cf17861a274d.svg",
     "index.html": "/index.html",
     "main.ddd12ba9.css.map": "/static/css/main.ddd12ba9.css.map",
-    "main.cc52f40e.js.map": "/static/js/main.cc52f40e.js.map"
+    "main.a6829e6e.js.map": "/static/js/main.a6829e6e.js.map"
   },
   "entrypoints": [
     "static/css/main.ddd12ba9.css",
-    "static/js/main.cc52f40e.js"
+    "static/js/main.a6829e6e.js"
   ]
 }
