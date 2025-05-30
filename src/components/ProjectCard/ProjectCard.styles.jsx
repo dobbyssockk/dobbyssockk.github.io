@@ -23,7 +23,7 @@ export const StyledCard = styled.div`
     background: rgba(0, 0, 0, 0.8);
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     opacity: 0;
     transition: opacity 0.3s ease;
@@ -40,7 +40,6 @@ export const StyledCard = styled.div`
     p {
       font-size: 14px;
       color: #fff;
-      margin-bottom: 10px;
       text-align: center;
     }
 
